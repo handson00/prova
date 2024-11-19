@@ -1,6 +1,6 @@
 import { cifraLetra, descifraLetra, criptografia } from './cesar.js';
 
-let mensagemOriginal = "prova de programacao";
+let mensagemOriginal = "programacao";
 let chave = 3;
 
 let mensagemCifrada = criptografia(mensagemOriginal, chave, cifraLetra);
